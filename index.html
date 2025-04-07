@@ -7,27 +7,31 @@
 </head>
 <body>
     <form>
-        Data Atual:<input type="text" name="" id="">
-        <label for="">/</label>
-        <input type="text" name="" id=""> 
-        <label for="">/</label>
-        <input type="text" name="" id="">
+        Data Atual:<input type="text" id="dia">
+        <label>/</label>
+        <input type="text" id="mes"> 
+        <label>/</label>
+        <input type="text" id="ano">
         <br>
 
-        <input type="text" name="" id="">
+        <input type="text" name="" id="mesext">
         <br>
 
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
+        Hora Atual:<input type="text" id="hora">
+        <label>:</label>
+        <input type="text" id="min">
+        <label>:</label>
+        <input type="text" id="seg">
         <br>
 
-        <input type="text" name="" id="">
+        <input type="text" id="sema">
         <br>
 
-        <button type="submit" onclick="Exibir()">Exibir</button>
-        <button type="submit" onclick="parar()">Parar Relógio</button>
+        <button onclick="Exibir()">Exibir</button>
+        <button type="submit" onclick="Parar()">Parar Relógio</button>
         <button type="submit" onclick="limpar()">Limpar Relógio</button>
     </form>
+
+    <script lang="JavaScript" src="./assets/javascript/script.js"></script>
 </body>
 </html>

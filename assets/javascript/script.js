@@ -1,13 +1,17 @@
 let mes_ext = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
 let sema = ['Domingo','Segunda-feira','Terça-feira','Quarta-feira','Quinta-feira','Sexta-feira','Sábado'];
+var rep;
 
 function Exibir()
 {
-    rep = setInterval('Repetir()',1000);
+    Repetir();
+    rep = setInterval(Repetir,1000);
+    
 }
 
 function Repetir()
 {
+
     let hoje = new Date();
     let dia = hoje.getDate();
 
