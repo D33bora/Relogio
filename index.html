@@ -8,29 +8,36 @@
 </head>
 <body>
     <form>
-        Data Atual:<input type="text" id="dia">
+        <h1>Relógio</h1>
+        <label>Data Atual:</label>
+        <input type="text" id="dia" disabled>
         <label>/</label>
-        <input type="text" id="mes"> 
+        <input type="text" id="mes" disabled> 
         <label>/</label>
-        <input type="text" id="ano">
+        <input type="text" id="ano" disabled>
         <br>
 
-        <input type="text" name="" id="mesext">
+        <label>Nome do Mês:</label>
+        <input type="text" name="" id="mesext" disabled>
         <br>
 
-        Hora Atual:<input type="text" id="hora">
+        <label>Hora Atual:</label>
+        <input type="text" id="hora" disabled>
         <label>:</label>
-        <input type="text" id="min">
+        <input type="text" id="min" disabled>
         <label>:</label>
-        <input type="text" id="seg">
+        <input type="text" id="seg" disabled>
         <br>
 
-        <input type="text" id="sema">
+        <label>Dia da Semana:</label>
+        <input type="text" id="sema" disabled>
         <br>
 
-        <button onclick="Exibir()">Exibir</button>
-        <button type="submit" onclick="Parar()">Parar Relógio</button>
-        <button type="submit" onclick="limpar()">Limpar Relógio</button>
+        <div id="botao">
+            <button onclick="Exibir()">Exibir</button>
+            <button type="submit" onclick="Parar()">Parar Relógio</button>
+            <button type="submit" onclick="Limpar()">Limpar Relógio</button>
+        </div>
     </form>
 
     <script lang="JavaScript" src="./assets/javascript/script.js"></script>

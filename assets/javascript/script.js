@@ -67,3 +67,16 @@ function Parar()
 {
     clearInterval(rep);
 }
+
+function Limpar()
+{
+    document.getElementById('dia').value = '';
+    document.getElementById('mes').value = '';
+    document.getElementById('ano').value = '';
+    document.getElementById('mesext').value = '';
+    document.getElementById('hora').value = '';
+    document.getElementById('min').value = '';
+    document.getElementById('seg').value = '';
+    document.getElementById('sema').value = '';
+
+}
