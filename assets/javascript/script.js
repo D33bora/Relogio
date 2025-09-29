@@ -78,5 +78,4 @@ function Limpar()
     document.getElementById('min').value = '';
     document.getElementById('seg').value = '';
     document.getElementById('sema').value = '';
-
 }

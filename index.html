@@ -9,12 +9,13 @@
 <body>
     <form>
         <h1>Relógio</h1>
-        <label>Data Atual:</label>
-        <input type="text" id="dia" disabled>
-        <label>/</label>
-        <input type="text" id="mes" disabled> 
-        <label>/</label>
-        <input type="text" id="ano" disabled>
+            <label>Data Atual:</label>
+            <input type="text" id="dia" disabled>
+            <label>/</label>
+            <input type="text" id="mes" disabled> 
+            <label>/</label>
+            <input type="text" id="ano" disabled>
+        
         <br>
 
         <label>Nome do Mês:</label>
@@ -34,12 +35,14 @@
         <br>
 
         <div id="botao">
-            <button onclick="Exibir()">Exibir</button>
-            <button type="submit" onclick="Parar()">Parar Relógio</button>
+            <button type="button" onclick="Exibir()">Exibir</button>
+            <button type="button" onclick="Parar()">Parar Relógio</button>
             <button type="submit" onclick="Limpar()">Limpar Relógio</button>
         </div>
     </form>
 
+    <img src="./assets/src/fundo1.png" id="fundo1">
+    <img src="./assets/src/fundo1.png" id="fundo2">
     <script lang="JavaScript" src="./assets/javascript/script.js"></script>
 </body>
 </html>
